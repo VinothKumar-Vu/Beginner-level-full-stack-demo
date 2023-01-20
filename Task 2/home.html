@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.min.css">
+<body>
+    <h1>Signup to Robokalam</h1>
+    <br>
+    <form action="process-form.php" method="post">
+
+        <label for="Username">Username : </label>
+        <input type = "text" id="Username" name = "Username">
+
+        <label for="email">Email : </label>
+        <input type = "text" id="email" name="email">
+
+        <label for="phone">Phone No : </label>
+        <input type="text" id="phone" name="phone" onkeypress="return (event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57))" maxlength="10"/>
+       
+        <label for="password">Password : </label>
+        <input type = "password" id="password" name="password">
+
+        <br>
+        <button>SignUp</button>
+    </form>
+</body>
+</head>
+</html>
