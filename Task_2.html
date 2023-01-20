@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+.header {
+  padding: 1px;
+  text-align: center;
+  background: #6C00FF;
+  color: white;
+  font-size: 15px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 15px;
+  background-color: #3C79F5;
+  padding: 15px;
+}
+
+.grid-container > div {
+
+  background-color: #6ba1f3;
+  text-align: center;
+  padding: 30px 0px;
+  font-size: 20px;
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Robokalam's One-on-one Class Room </h1>
+</div>
+
+<div class="topnav">
+  <a class="active" href="#">Home</a>
+  <a href="#">Saved Notes</a>
+  <a href="#">Contact</a>
+  <a href="#">Chapters</a>
+</div>
+
+<div class="grid-container">
+  <div>
+    <video id="vid" src="https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/1080/Big_Buck_Bunny_1080_10s_1MB.mp4" width="700" height="250" autoplay loop muted type="video/mp4"> </video>
+  </div>
+  <div>
+    <video id="vid" src="https://test-videos.co.uk/vids/jellyfish/mp4/h264/1080/Jellyfish_1080_10s_1MB.mp4" width="700" height="250" autoplay loop muted type="video/mp4"> </video>
+  </div>
+  <div class="item3">Emotional Status</div>
+</div>
+
+</body>
+</html>
