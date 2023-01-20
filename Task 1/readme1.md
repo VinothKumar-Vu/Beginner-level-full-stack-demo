@@ -1,4 +1,4 @@
-Steps for creating a simple form in HTML, PHP, and phpMyAdmin:
+# Steps for creating a simple form in HTML, PHP, and phpMyAdmin:
 
 1. Create a new HTML file. Begin with the HTML form tags, and within that the form element and the input element:
 
